@@ -4,7 +4,7 @@
 
 # # # In this repo:
 ```
-    - Binary Search*
+    - Binary Search
     - QuickSort*
     - MergeSort*
     - BubbleSort*
