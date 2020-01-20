@@ -4,6 +4,7 @@
 
 ### In this repo:
 ```
+    - Peak finding (1D/2D)
     - Binary Search
     - QuickSort*
     - MergeSort*
