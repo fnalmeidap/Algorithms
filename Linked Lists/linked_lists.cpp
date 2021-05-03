@@ -9,6 +9,12 @@ class Node {
         this -> data = n;
         this -> next = nullptr;
     }
+    
+    void insertFront(Node ** headRef, int newData){
+        Node* newNode = new Node(newData);
+        newNode -> next = (*headRef);
+        (*headRef) = newNode;
+    }
 };
 
 using namespace std;
