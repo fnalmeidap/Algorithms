@@ -12,8 +12,8 @@ and algorithms.
 
 ### Data Structures
 - [Linked Lists](C++/Data%20Structures/Linked%20Lists/linked_lists.cpp)
-- [Graph](C++/Data%20Structures/Graphs/Graph.cpp)
-- Tree
+- [Graphs](C++/Data%20Structures/Graphs/Graph.cpp)
+- Trees
   - Binary Trees
   - AVL trees
 ### Algorithms
@@ -29,15 +29,15 @@ and algorithms.
   - [QuickSort](C++/Algorithms/Ordenation/quicksort.cpp)
   - [MergeSort](C++/Algorithms/Ordenation/mergesort.cpp)
   - [HeapSort](C++/Algorithms/Ordenation/heapsort.cpp)
-  - BubbleSort*
-
-- Breadth First Search
-- Depth First Search
-- Minimal Spanning Tree
-- Kruskal
-- Prim
-
-- Floyd Warshall
-- Bellmand-Ford
-- Dijkstra
-- A* 
+  - BubbleSort
+  
+- **Graph and Tree Traversal**
+  - Breadth First Search
+  - Depth First Search
+  - Minimal Spanning Tree
+  - Kruskal
+  - Prim
+  - Floyd Warshall
+  - Bellmand-Ford
+  - Dijkstra
+  - A* 
