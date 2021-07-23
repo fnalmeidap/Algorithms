@@ -1,4 +1,4 @@
-import { print } from '../utils.js';
+import { print } from '../../utils.js';
 
 class Node {
   constructor(data = null, next = null){
