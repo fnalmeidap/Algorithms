@@ -7,8 +7,31 @@ class Node {
   }
 }
 
-class LinkedList {
+class ListDebug{
+  lprint(){
+    let cur = this.head;
+    let listArray = [];
+    while(cur){
+      listArray.push(cur.dat);
+      cur = cur.next;
+    }
+
+    print(listArray);
+  }
+
+  showConnections(){
+    let cur = this.head;
+    
+    while(cur.next){
+      print(cur.data + " -> " + (cur.next).data);
+      cur = cur.next;
+    }
+  }
+}
+
+class LinkedList extends ListDebug{
   constructor(head = null){
+    super()
     this.head = head;
   }
 
@@ -32,17 +55,6 @@ class LinkedList {
     cur.next = newNode;
 
     return this;
-  }
-
-  lprint(){
-    let cur = this.head;
-    let listArray = [];
-    while(cur){
-      listArray.push(cur.dat);
-      cur = cur.next;
-    }
-
-    print(listArray);
   }
 
   size(){
@@ -79,30 +91,4 @@ class LinkedList {
 
     }
   }
-
-  showConnections(){
-    let cur = this.head;
-    
-    while(cur.next){
-      print(cur.data + " -> " + (cur.next).data);
-      cur = cur.next;
-    }
-  }
 }
-
-let lista = new LinkedList();
-
-lista.insert(1);
-lista.insert(2);
-lista.insert(3);
-lista.insert(4);
-lista.insert(5);
-
-print("Antes");
-lista.showConnections()
-
-lista.delete(3);
-
-print("\nDepois");
-lista.showConnections()
-
